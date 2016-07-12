@@ -13,9 +13,3 @@ RUN apk add --update bash curl openssl ca-certificates && \
   chmod +x /opt/activator/activator-${ACTIVATOR_VERSION}-minimal/bin/activator && \
   ln -s /opt/activator/activator-${ACTIVATOR_VERSION}-minimal/bin/activator /usr/bin/activator && \
   rm -rf /tmp/* /var/cache/apk/*
-
-EXPOSE 9000 9999
-
-# Print versions
-RUN java -version && \
-  scala -version || echo '' > /dev/null
