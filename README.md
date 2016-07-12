@@ -1,1 +1,1 @@
-play-scala for Alpine Linux
+![dockeri](http://dockeri.co/image/cignoir/play-scala)
