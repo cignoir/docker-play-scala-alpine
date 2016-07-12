@@ -35,12 +35,5 @@ RUN wget "http://downloads.typesafe.com/play/$PLAY_VERSION/play-$PLAY_VERSION.zi
   ln -s /usr/local/play-$PLAY_VERSION/play /usr/local/bin/play && \
   rm -f *.zip
 
-EXPOSE 9000 9999
-
 # Clean up
 RUN apk del .build-dependencies curl unzip
-
-# Print versions
-RUN java -version && \
-  scala -version || echo '' > /dev/null && \
-  sbt --version
