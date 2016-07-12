@@ -37,3 +37,5 @@ RUN wget "http://downloads.typesafe.com/play/$PLAY_VERSION/play-$PLAY_VERSION.zi
 
 # Clean up
 RUN apk del .build-dependencies curl unzip
+
+EXPOSE 9000 9999
