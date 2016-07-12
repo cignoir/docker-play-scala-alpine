@@ -1,4 +1,4 @@
-[![dockeri](http://dockeri.co/image/cignoir/play-scala)](https://hub.docker.com/r/cignoir/play-scala/)
+[![dockeri](http://dockeri.co/image/cignoir/play-scala-alpine)](https://hub.docker.com/r/cignoir/play-scala-alpine/)
 
 play-scala for Alpine Linux
 ---
