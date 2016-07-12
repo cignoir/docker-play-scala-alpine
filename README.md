@@ -1,6 +1,5 @@
 [![Docker Stars](https://img.shields.io/docker/stars/cignoir/play-scala-alpine.svg?style=flat-square)](https://hub.docker.com/r/cignoir/play-scala-alpine/)
 [![Docker Pulls](https://img.shields.io/docker/pulls/cignoir/play-scala-alpine.svg?style=flat-square)](https://hub.docker.com/r/cignoir/play-scala-alpine/)
-[![](https://badge.imagelayers.io/cignoir/play-scala-alpine:latest.svg)](https://imagelayers.io/?images=cignoir/play-scala-alpine:latest 'Get your own badge on imagelayers.io')
 
 play-scala for Alpine Linux
 ---
