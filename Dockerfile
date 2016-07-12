@@ -1,4 +1,4 @@
-FROM java:7u91-alpine
+FROM java:7-alpine
 
 MAINTAINER cignoir <cignoir@gmail.com>
 
